@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Rémi F.</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- fonts -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300&display=swap");
+  </style>
+  <style>
+    @font-face {
+      font-family: "telegraf";
+      src: url("fonte/PPTelegraf-Regular.otf") format("opentype"),
+        url("fonte/PPTelegraf-UltraBold.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+
+  <script src="https://kit.fontawesome.com/7861fc04bf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- início -->
+  <header>
+    <p class="logo">Portfólio Rémi F.</p>
+
+    <ul class="navbar">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <div class="main">
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+
+  <section id="inicio">
+    <div class="ini-1">
+      <h2>Desenvolvedor Front-End</h2>
+      <hr />
+      <h2 class="telegraf">2023</h2>
+    </div>
+    <div class="ini-2">
+      <img src="./imgs/pcpapel.png" />
+      <img src="./imgs/pccafe.png" />
+    </div>
+    <div class="ini-3">
+      <h1>Rémi Farine</h1>
+      <h2>PORTFÓLIO</h2>
+    </div>
+  </section>
+
+  <!-- sobre -->
+  <section id="sobre">
+    <div class="conteudo">
+      <div class="sobre-img">
+        <img src="./imgs/novaminha.jpeg" alt="" />
+      </div>
+      <div class="sobre-texto">
+        <h2 class="titulo-secao">Sobre mim</h2>
+        <p>
+          Meu nome é Rémi Farine, sou de Recife e comecei minha carreira como desenvolvedor de software em Maio de 2022.
+          Atualmente estou me especializando na parte de desenvolvimento front-end com estudos em React.
+        </p>
+        <br>
+        <p>
+          Gosto muito dessa área por poder solucionar problemas, construir interfaces mais bonitas e práticas para
+          usuários e fazer com que elas sejam assertivas para os objetivos de suas empresas.
+        </p>
+        <br>
+        <p>
+          Você pode obter mais informações sobre mim no
+          <a href="https://www.linkedin.com/in/remifarine/">LinkedIn</a> e <a
+            href="https://github.com/remifaro">Github</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- habilidades -->
+  <section id="habilidades">
+
+
+    <div class="hab-emcima">
+      <h2 class="titulo-secao">Habilidades e Tecnologias</h2>
+      <p>
+        Estas são as habilidades e tecnologias atuais que utilizo em meus
+        trabalhos como desenvolvedor:
+      </p>
+    </div>
+
+    <div class="hab-embaixo">
+      <ul class="hab-quadro">
+        <li class="hab-icon">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-node-js"></i>
+          <span>Node.js</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-bootstrap"></i>
+          <span>Bootstrap</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-react"></i>
+          <span>React</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-git-alt"></i>
+          <span>Git</span>
+        </li>
+        <li class="hab-icon">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- projetos -->
+  <section id="projetos">
+    <div class="projetos-titulo">
+      <p>Portfólio</p>
+      <h2 class="titulo-secao">Meus <span>projetos</span></h2>
+    </div>
+    <ul>
+      <li class="projeto-grid" id="computer1">
+        <div class="projeto-img">
+          <img src="./imgs/secretword.png" alt="" />
+          <a href="https://secretword-remifarine.netlify.app/">
+            <div class="overlay"></div>
+          </a>
+        </div>
+        <div class="projeto-conteudo">
+          <a href="https://secretword-remifarine.netlify.app/">
+            <p class="p1">Projeto em destaque</p>
+          </a>
+          <p class="p2">Game Secret Word</p>
+          <div class="legenda">
+            Este é um projeto de jogo que desenvolvi utilizando React. Nele você poderá
+            fazer suas tentativas de adivinhar a palavra escondida. Erros e
+            acertos, vão aumentar sua pontuação ou finalizar o jogo para início de nova tentativa.
+          </div>
+          <p class="p4">React - JavaScript - CSS</p>
+          <p>
+            <a href="https://github.com/remifaro/Projeto_Secret_Word_-React-"><i class="fa-brands fa-github"></i></a>
+            <a href="https://secretword-remifarine.netlify.app/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </p>
+        </div>
+      </li>
+      <li class="projeto-grid" id="mobile1">
+        <div id="um">
+          <div class="projeto-conteudo">
+            <a href="https://secretword-remifarine.netlify.app/">
+              <p class="p1">Projeto em destaque</p>
+            </a>
+            <p class="p2">Game Secret Word</p>
+            <div class="legenda">
+              Este é um projeto de jogo que desenvolvi utilizando React. Nele você poderá
+              fazer suas tentativas de adivinhar a palavra escondida. Erros e
+              acertos, vão aumentar sua pontuação ou finalizar o jogo para início de nova tentativa.
+            </div>
+            <p class="p4">React - JavaScript - CSS</p>
+            <p>
+              <a href="https://github.com/remifaro/Projeto_Secret_Word_-React-"><i class="fa-brands fa-github"></i></a>
+              <a href="https://secretword-remifarine.netlify.app/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="projeto-grid" id="computer2">
+        <div class="projeto-conteudo-oposto">
+          <a href="https://github.com/remifaro/Projeto_YelpCamp">
+            <p class="p1">Projeto em destaque</p>
+          </a>
+          <p class="p2">YelpCamp</p>
+          <div class="legenda oposto">
+            <p class="p3">
+              Este é um projeto de uma plataforma de cadastramento e avaliações de acampamentos, onde
+              usuários poderão ver no mapa acampamentos registrados e avaliar
+              cada um deles.
+            </p>
+          </div>
+          <p class="p4">Node.js - Express.js - JavaScript - MongoDB</p>
+          <p>
+            <a href="https://github.com/remifaro/Projeto_YelpCamp"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/remifaro/Projeto_YelpCamp"><i
+                class="fa-solid fa-arrow-up-right-from-square oposto"></i></a>
+          </p>
+        </div>
+        <div class="projeto-img">
+          <img src="./imgs/yelp.png" alt="" />
+          <a href="https://github.com/remifaro/Projeto_YelpCamp">
+            <div class="overlay"></div>
+          </a>
+        </div>
+      </li>
+      <li class="projeto-grid" id="mobile2">
+        <div id="dois">
+          <div class="projeto-conteudo">
+            <a href="https://github.com/remifaro/Projeto_YelpCamp">
+              <p class="p1">Projeto em destaque</p>
+            </a>
+            <p class="p2">YelpCamp</p>
+            <div class="legenda oposto">
+              <p class="p3">
+                Este é um projeto de uma plataforma de cadastramento e avaliações de acampamentos, onde
+                usuários poderão ver no mapa acampamentos registrados e avaliar
+                cada um deles.
+              </p>
+            </div>
+            <p class="p4">Node.js - Express.js - JavaScript - MongoDB</p>
+            <p>
+              <a href="https://github.com/remifaro/Projeto_YelpCamp"><i class="fa-brands fa-github"></i></a>
+              <a href="https://github.com/remifaro/Projeto_YelpCamp"><i
+                  class="fa-solid fa-arrow-up-right-from-square oposto"></i></a>
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="projeto-grid" id="computer3">
+        <div class="projeto-img">
+          <img src="./imgs/museumcandy.png" alt="" />
+          <a href="https://museumofcandy-remifarine.netlify.app/">
+            <div class="overlay"></div>
+          </a>
+        </div>
+        <div class="projeto-conteudo">
+          <a href="https://museumofcandy-remifarine.netlify.app/">
+            <p class="p1">Projeto em destaque</p>
+          </a>
+          <p class="p2">Museum of Candy</p>
+          <div class="legenda">
+            Este projeto é de uma página de um museu de doces, onde pratiquei a
+                  responsividade do site e criei o layout com o framework Bootstrap.
+          </div>
+          <p class="p4">Bootstrap - CSS - HTML</p>
+          <p>
+            <a href="https://github.com/remifaro/Museum_Of_Candy"><i class="fa-brands fa-github"></i></a>
+            <a href="https://museumofcandy-remifarine.netlify.app/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </p>
+        </div>
+      </li>
+      <li class="projeto-grid" id="mobile3">
+        <div id="tres">
+          <div class="projeto-conteudo">
+            <a href="https://museumofcandy-remifarine.netlify.app/">
+              <p class="p1">
+                Projeto em destaque
+              </p>
+              <a>
+                <p class="p2">
+                  Museum of Candy
+                </p>
+                <div class="legenda">
+                  <p class="p3">
+                    Este projeto é de uma página de um museu de doces, onde pratiquei a
+                    responsividade do site e criei o layout com o framework Bootstrap.
+                  </p>
+                </div>
+                <p class="p4">
+                  Bootstrap - CSS - HTML
+                </p>
+                <p>
+                  <a href="https://github.com/remifaro/Museum_Of_Candy"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://museumofcandy-remifarine.netlify.app/"><i
+                      class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- contato -->
+  <section id="contato">
+    <h2 class="titulo-secao">Entre em contato!</h2>
+    <p>
+      Caso queira entrar em contato para conversar ou saber
+      sobre mais informações, utilize as formas de contato abaixo:
+    </p>
+    <div class="contato-icones">
+      <a href="https://github.com/remifaro"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/remifarine/"><i class="fa-brands fa-linkedin"></i></a>
+      <a
+        href="https://wa.me/5581997307620?text=Ol%C3%A1%2C%20R%C3%A9mi!%20Vi%20seu%20curr%C3%ADculo-portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA."><i
+          class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://drive.google.com/u/0/uc?id=1-7FVL2DOg0OoWxekmjhzCJywjGZ8vKej&export=download"><i
+          class="fa-regular fa-file"></i></a>
+    </div>
+  </section>
+
+  <footer>© Site desenvolvido por Rémi Farine · 2023</footer>
+
+  <!-- js link -->
+  <script type="text/javascript" src="./portfolio.js"></script>
+
+</body>
+
+</html>

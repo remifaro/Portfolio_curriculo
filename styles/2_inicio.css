@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#inicio {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+}
+
+.ini-1 {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  gap: 2em;
+  vertical-align: middle;
+}
+
+hr {
+  width: 55vw;
+  height: 1px;
+  margin-bottom: 2vh;
+}
+
+.ini-2 {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2em;
+  padding-bottom: 2vh;
+}
+
+.ini-2 img {
+  width: 20vw;
+  height: 50vh;
+}
+
+.ini-3 {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+h1 {
+  font-family: "telegraf", normal;
+  font-size: 5em;
+  color: #0c0003;
+}
+
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #0c0003;
+}
+
+.telegraf {
+  font-family: "telegraf", normal;
+}
+
+.ini-3 h2 {
+  padding-top: 3vh;
+}
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 1200px) {
+  hr {
+    width: 35vw;
+    transition: all 0.5s ease-out;
+  }
+}
+
+@media (max-width: 800px) {
+  .ini-1 h2 {
+    font-size: 1em;
+    transition: all 0.5s ease-out;
+  }
+
+  hr {
+    width: 30vw;
+    transition: all 0.5s ease-out;
+  }
+
+  .ini-2 img {
+    width: 30vw;
+    transition: all 0.5s ease-out;
+  }
+
+  h1 {
+    font-size: 3em;
+    transition: all 0.5s ease-out;
+  }
+
+  .ini-3 h2 {
+    font-size: 1em;
+    transition: all 0.5s ease-out;
+  }
+}
+
+@media (max-width: 500px) {
+  #inicio {
+    height: 85vh;
+  }
+
+  .ini-1 {
+    height: 15vh;
+    transition: all 0.5s ease-out;
+  }
+
+  hr {
+    width: 12vw;
+    margin-bottom: 1vh;
+    transition: all 0.5s ease-out;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    transition: 0.5s ease-out;
+  }
+
+  .ini-2 {
+    height: 55vh;
+    gap: 1em;
+    transition: all 0.5s ease-out;
+  }
+
+    
+  .ini-2 img {
+    width: 40vw;
+    height: 45vh;
+    transition: all 0.5s ease-out;
+  }
+
+  .ini-3 {
+    height: 10vh;
+    align-items: center;
+    transition: all 0.5s ease-out;
+  }
+
+  .ini-3 h2 {
+    padding-top: 0;
+    transition: 0.5s ease-out;
+  }
+}

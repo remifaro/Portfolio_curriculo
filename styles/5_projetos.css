@@ -1,0 +1,268 @@
+/* ------------------------------- */
+/* seção projetos */
+
+#projetos {
+  height: auto;
+  width: auto;
+  padding-top: 15vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+}
+
+/* ------------------------------- */
+/* projeto cabeçalho  */
+
+.projetos-titulo {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: 200;
+}
+
+.projetos-titulo p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #0c0003;
+}
+
+/* ------------------------------- */
+/* grid ul e li  */
+
+#projetos ul {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
+}
+
+#projetos li {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6em;
+}
+
+#projetos #mobile1,
+#projetos #mobile2,
+#projetos #mobile3 {
+  display: none;
+}
+/* ------------------------------- */
+/* imagem */
+
+.projeto-img {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#projetos img {
+  height: 50vh;
+  width: 40vw;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: 0.5s ease;
+  background-color: rgb(216, 84, 84, 0.6);
+}
+
+.projeto-img:hover .overlay {
+  opacity: 0;
+}
+
+.overlap:hover .overlap {
+  height: 100%;
+}
+
+/* ------------------------------- */
+/* conteudo */
+
+.projeto-conteudo {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: #0c0003;
+  margin-left: 1em;
+}
+
+#projetos li .p1 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #d85454;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 0.8em;
+}
+
+#projetos li .p2 {
+  font-family: "telegraf", normal;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+#projetos li .legenda {
+  font-family: "Libre Franklin", sans-serif;
+  background-color: rgb(52, 53, 50, 0.1);
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.5em;
+
+  padding: 1.5em;
+  margin: 1em 0 1em 0;
+  position: static;
+}
+
+#projetos li .p3 {
+  font-size: 1em;
+}
+
+#projetos li .p4 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.projeto-conteudo i {
+  font-size: 1.2rem;
+  margin-left: 1em;
+  color: #343532;
+}
+
+.projeto-conteudo a {
+  text-decoration: none;
+}
+
+/* ------------------------------- */
+/* conteudo do projeto do lado oposto */
+
+.projeto-conteudo-oposto {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #0c0003;
+  margin-right: 1em;
+}
+
+.projeto-conteudo-oposto i {
+  font-size: 1.2rem;
+  margin-right: 1em;
+  color: #343532;
+}
+
+.projeto-conteudo-oposto a {
+  text-decoration: none;
+}
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 800px) {
+  #projetos #computer1, 
+  #projetos #computer2, 
+  #projetos #computer3 {
+    display: none;
+  }
+
+  #projetos #mobile1,
+  #projetos #mobile2,
+  #projetos #mobile3 {
+    display: flex;
+    transition: 0.5s ease-out;
+  }
+
+  #um {
+    background: url(../imgs/secretword.png) center no-repeat;
+    background-size: cover;
+  }
+
+  #dois {
+    background: url(../imgs/yelp.png) center no-repeat;
+    background-size: cover;
+  }
+
+  #tres {
+    background: url(../imgs/museumcandy.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .projetos-titulo {
+    width: 90vw;
+    transition: 0.5s ease-out;
+  }
+
+  #projetos ul {
+    margin: 1em 0;
+    transition: 0.5s ease-out;
+  }
+
+  #projetos li {
+    width: 90vw;
+    margin-bottom: 2em;
+    transition: all 0.5s ease-out;
+  }
+
+  #mobile1 .projeto-conteudo,
+  #mobile2 .projeto-conteudo,
+  #mobile3 .projeto-conteudo {
+    text-align: left;
+    color: white;
+    padding: 2.5em 1.5em;
+    background-color: rgb(216, 84, 84, 0.9);
+    transition: all 0.5s ease-out;
+  }
+
+  #mobile1 .projeto-conteudo,
+  #mobile2 .projeto-conteudo,
+  #mobile3 .projeto-conteudo,
+  background-color {
+    margin: 0;
+    transition: 0.5s ease-out;
+  }
+
+  #projetos li .p1 {
+    color: #343532;
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+  }
+
+  #projetos li .p2 {
+    font-family: "telegraf", normal;
+    font-size: 1.4em;
+    font-weight: 700;
+    transition: all 0.5s ease-out;
+  }
+
+  #projetos li .legenda {
+    background-color: rgb(52, 53, 50, 0);
+    padding: 0;
+    margin: 1em 0;
+    font-size: 0.9em;
+    text-shadow: black 1px 0 10px;
+    transition: all 0.5s ease-out;
+  }
+
+  .projeto-conteudo i {
+    font-size: 1.2rem;
+    margin-left: 0;
+    margin-right: 1em;
+    color: #343532;
+    transition: all 0.5s ease-out;
+  }
+}

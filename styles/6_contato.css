@@ -1,0 +1,68 @@
+#contato {
+  height: 70vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contato p {
+  width: 55vw;
+  display: flex;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+#contato .fa-brands {
+  color: #0c0003;
+  margin: 0.5em;
+  font-size: 3em;
+}
+
+#contato .fa-brands:hover {
+  transition: 0.5s;
+  color: #d85454;
+}
+
+#contato .fa-regular {
+  color: #0c0003;
+  margin: 0.5em;
+  font-size: 3em;
+}
+
+#contato .fa-regular:hover {
+  transition: 0.5s;
+  color: #d85454;
+}
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 800px) {
+  #contato {
+    height: 50vh;
+  }
+
+  #contato .titulo-secao {
+    font-size: 2em;
+  }
+
+  #contato p {
+    font-size: 0.8em;
+  }
+
+  #contato .fa-brands {
+    margin: 0.5em;
+    font-size: 2em;
+  }
+
+  #contato .fa-regular {
+    margin: 0.5em;
+    font-size: 2em;
+  }
+}

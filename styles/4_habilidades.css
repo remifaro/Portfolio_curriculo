@@ -1,0 +1,148 @@
+/* seção habilidades */
+
+#habilidades {
+  height: 100vh;
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* -------------------------- */
+
+.hab-emcima {
+  height: 45vh;
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.hab-embaixo {
+  height: 55vh;
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.hab-quadro {
+  max-width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+#habilidades p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #0c0003;
+}
+
+/* -------------------------- */
+
+/* quadrados dos ícones; */
+.hab-icon {
+  width: 8em;
+  height: 8em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hab-icon i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #0c0003;
+}
+
+.hab-icon span {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  color: #343532;
+}
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 1200px) {
+  .hab-quadro {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  #habilidades {
+    height: 80vh;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .hab-emcima {
+    height: 25vh;
+    width: 50vw;
+    padding: 0;
+  }
+
+  .hab-embaixo {
+    height: 35vh;
+    width: auto;
+  }
+
+  .hab-quadro {
+    max-width: 90vw;
+  }
+
+  #habilidades p {
+    font-size: 0.8em;
+  }
+
+  .hab-icon {
+    width: 6em;
+    height: 6em;
+  }
+
+  .hab-icon span {
+    font-size: 0.8em;
+  }
+
+  .hab-icon i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0c0003;
+  }
+}
+
+@media (max-width: 500px) {
+  #habilidades {
+    height: 90vh;
+  }
+
+  #habilidades .titulo-secao {
+    font-size: 1.8em;
+  }
+
+  .hab-icon {
+    width: 5em;
+    height: 5em;
+  }
+
+  .hab-quadro {
+    gap: 1.5em;
+  }
+}
