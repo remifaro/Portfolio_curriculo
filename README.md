@@ -1,4 +1,4 @@
-# Projeto App Masters
+# Projeto de Portfólio
 
 Este é um projeto de frontend realizado para ser utilizado de Portóflio próprio, desenvolvido com CSS, HTML e JavaScript para demonstrar projetos pessoais e conhecimentos adquiridos como desenvolvedor. 
 
